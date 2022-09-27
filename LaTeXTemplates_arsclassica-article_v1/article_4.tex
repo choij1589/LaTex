@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Arsclassica Article
+% LaTeX Template
+% Version 1.1 (1/8/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Lorenzo Pantieri (http://www.lorenzopantieri.net) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % Main document font size
+a4paper, % Paper type, use 'letterpaper' for US Letter paper
+oneside, % One page layout (no page indentation)
+%twoside, % Two page layout (page indentation for binding and different headers)
+headinclude,footinclude, % Extra spacing for the header and footer
+BCOR5mm, % Binding correction
+]{scrartcl}
+
+\input{structure.tex} % Include the structure.tex file which specified the document structure and layout
+
+\hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR(S)
+%----------------------------------------------------------------------------------------
+
+\title{\normalfont\spacedallcaps{Research Proposal}} % The article title
+
+%\subtitle{Subtitle} % Uncomment to display a subtitle
+
+\author{\spacedlowsmallcaps{Jin Choi\textsuperscript{*}}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+
+\date{} % An optional date to appear under the author(s)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	HEADERS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection~#1}} % Uncomment when using the twoside option - this modifies the header on odd pages
+\lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
+
+\pagestyle{scrheadings} % Enable the headers specified in this block
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS & LISTS OF FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+\maketitle % Print the title/author/date block
+
+\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
+
+\tableofcontents % Print the table of contents
+
+\listoffigures % Print the list of figures
+
+\listoftables % Print the list of tables
+
+%----------------------------------------------------------------------------------------
+%	AUTHOR AFFILIATIONS
+%----------------------------------------------------------------------------------------
+
+\let\thefootnote\relax\footnotetext{* \textit{Department of Physics and Astronomy, Seoul National University, Seoul, Republic of Korea}}
+
+%\let\thefootnote\relax\footnotetext{\textsuperscript{1} \textit{Department of Physics and Astronomy, Seoul National University, Seoul, Republic of Korea}}
+
+%----------------------------------------------------------------------------------------
+
+\newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
+
+
+\section{Introduction}
+In 2012, a spin 0 particle with its mass of 125 GeV has been discovered,
+which can be interpreted as Higgs Boson($H$) in the Standard Model(SM).
+The discovery of the particle completed the theory, but there are still many anomalies
+that cannot be explained in SM. For example, the mass hierachy problem, matter-antimatter
+asymmetry, or the existence of the dark matter are still not configured yet. Therefore, many
+theories so called Beyond the Standard Model(BSM) have been constructed and many of them
+extend the singlet Higgs sector to be doublet. In general two Higgs doublet model(2HDM), the
+theory predicts 5 physical Higgs eigenstates: two charged Higgs bosons($H^{\pm}$),
+two neutral Higgs bosons($H$, $h$), and one pseudoscalar Higgs boson($A$).
+The already founded particle can be one of the neutral Higgs boson, so if it is the light neutral
+Higgs boson, then it is called normal scenario(NS), otherwise inverted scenario(IS).
+
+Because of 5 physical Higgs boson eigenstates, various decay modes
+of $H^{\pm}$ can be established. The most actively searched decay modes 
+in theLHC are fermionic decay modes such as
+$H^+ \rightarrow t\bar{b}$, 
+$H^+ \rightarrow c\bar{s}$, and 
+$H^+ \rightarrow \tau^+\nu$.
+These channels are used to set upper limits on the mass of $H^+$ and $tan\beta$.
+There are also bosonic decay modes such as
+$H^+ \rightarrow hW^+$,
+$H^+ \rightarrow HW^+$, and
+$H^+ \rightarrow W^+A$.
+Especially, $H^{\pm}W^{\mp}A$ coupling does not depend on $tan\beta$,
+so if it is kinematically allowed, $H^+ \rightarrow W^+A$ can be the most dominant
+decay mode and highly suppress the fermionic decay modes.
+The importance of the $H^+ \rightarrow W^+A$ decay mode was well known in the LEP era.
+The DELPHI and OPAL experiment set the lower bound in the $m_{H^+}$ at 72 GeV
+in type 1 2HDM with $m_A \in$[12, 70] GeV using $e^+e^- \rightarrow H^+H^-$ production.
+In Tevatron, the CDF experiment searched the
+$H^+ \rightarrow W^+a \rightarrow W^+\tau^+\tau^-$
+decay mode with $m_{H^+} \in$ [90, 160] GeV and $m_A \in$ [4, 9] GeV,
+setting the upper limit on branching fraction 
+$B(t \rightarrow bH^+ \rightarrow bW^+a \rightarrow bW^+\tau^+\tau^-)$
+as 8 to 50\%. At the LHC Run1, there was no search for $H^+ \rightarrow W^+A$ decay mode,
+but the Atlas experiment searched another bosonic decay mode $H^+ \rightarrow W^+Z$. In Run 2,
+only the CMS  experiment searched $H^+ \rightarrow W^+A$ decay mode from top quark pair production 
+using $35.9 fb^{-1}$ data collected in 2016. The research have set the upper limit on
+$\sigma (pp \rightarrow t\bar{t} ) \times B(t \rightarrow bH^+ \rightarrow bW^+A \rightarrow bW^+\mu^+\mu^-)$
+below $15 fb$, 
+assuming $m_{H^+} \in$ [70, 160] GeV and $15 GeV < m_A < m_t - m_{H^+}$.
+
+In this research, we will use the full Run2 LHC data collected by the CMS experiment
+to enhance the sensitivity searched in the previous analysis.
+In addition, we will also investigate the off-shell decay of $H^+ \rightarrow W^+A$ decay mode 
+($m_{H^+} < m_A + m_{W^+})$. Previous searches have been avoided this 
+pseudoscalar Higgs mass region because of the large background from Z associated productions(e.g. $t\bar{t}+Z$).
+
+\section{Data and Simulated Sample}
+
+%The signal events have been generated using Madgraph_aMC@NLO v5.2.6.5
+%with general 2HDM model restricted by type 1 in 5 flavour scheme, with its
+%parton shower and hadronization done py Pythia 8. Background samples used Powheg Box v2 or
+%Madgraph_aMC@NLO v5.2.6.5 up to LO or NLO, and some samples are normalized to higher
+%%order precision. More information of the sample generation can be found in Table 1.
+%All the samples used Geant4 for the dedicated CMS detector simulation.
+
+\begin{table}[hbt]
+    \caption{Sample Information}
+    \centering
+    \begin{tabular}{llr}
+    \toprule
+    \multicolumn{2}{c}{Name} \\
+    \cmidrule(r){1-2}
+    First name & Last Name & Grade \\
+    \midrule
+    John & Doe & $7.5$ \\
+    Richard & Miles & $2$ \\
+    \bottomrule
+    \end{tabular}
+    \label{tab:label}
+\end{table}
+
+\section{Search Strategy}
+In this analysis, we investigate $H^+$ and $A$ with the mass range of
+70 GeV < $m_{H^+}$ < 160 GeV and 15 GeV < $m_A$ < $m_H^+$ - 5 GeV using 139 $fb^{-1}$
+of proton-proton collision data at $\sqrt{s}$ = 13 TeV collected during the LHC Run 2
+by the CMS experiment. Here, the mass of $H^+$ has been set to be greater than the lower bound
+from LEP experiment and less than that of the top quark. The mass of $A$ has been set to avoid
+the low mass resonances but allow the off-shell decay from $H^+$. The most dominant
+production channel in this mass range is via top quark pair production, and we search for the 
+cascade decay chain $H^+ \rightarrow W^+A \rightarrow W^+\mu^+\mu^-$. Assuming at least one
+of the $W$ bosons decay leptonically, the final state contains $e\mu\mu$ of $\mu\mu\mu$ + b-jet
+signature. The dominant background in this channel is leptonically decaying top quark pair production,
+with one of the jets being misidentified as a muon or an electron(non-prompt background).
+Prompt contribution from $WZ \rightarrow 3l + \nu$ and $ZZ \rightarrow 4l$(VV), $TT + X(X=W, Z, H)$
+are also contributed to the dominant background sources. Drell-Yan processes with bremsstrahlung
+of final state leptons, referred to as conversion background, are also estimated. Some rare processes
+such as $H \rightarrow ZZ \rightarrow 4l$ with $H$ produced either by gluon fusion or vector boson fusion,
+$VVV (V=W, Z)$, $TTTT$ are also considered.
+
+Baseline selection of events has been build based on the signal event topology:
+\begin{itemize}
+    \item 3 muons \ 1 electron + 2 muons with at least one OS muon pair
+    \item least two jets
+    \item at least one b-tagged jet
+\end{itemize}
+
+To maximize the sensitivity, graph-neural-network(GNN) based discriminators are trained
+to separate the signal events and the nonprompt or VV backgrounds. Graph based data structure
+is the most natural way to represent the collider events, since the graph can easily represent
+the event topology and no intrinsic order between objects in a single event is needed. Other ML
+techniques such as boosted decision tree(BDT) or deep neural network(DNN) frequently use a high-level
+inputs contructed from the objects and should represent the event
+in a list, which have to make  a manual ordering(e.g. PT ordering in jets).
+In GNN, each object in an event can be represented as a node and their relation such as $\Delta R$
+can be represented as an edge of two objects. The network aggregate the information in the last layer
+to determine the score(or probability) of the event to be signal or background. The performance of the
+GNN discriminator classifying ($m_H^{+}, m_A$) = (130, 90) GeV vs leptonically decaying top-pair production
+is given in figure 1. 
+
+The event rate for each background source is measured in different manner.
+For the nonprompt background, the contribution is estimated using
+tight-loose method. In this method, we use single lepton events to measure the probability
+of nonprompt leptons passing loose ID criteria but not tight ID criteria. The probability
+is used to estimate the event rate in application regions by extrapolating the event rates
+that not all the leptons passing the tight ID criteria. For the conversion background,
+since the MC modelling of the conversion leptons might be ill-modelled, the scale factors for
+$Z+\gamma$ samples are measured in separated control region which is orthogonal with the signal region.
+The other prompt backgrounds are estimated directly from the MC samples.
+
+For each signal mass point, the sensitivity will be maximized by giving cuts 
+on the dimuon mass spectrum and signal versus background GNN discriminator score.
+The result will be interpreted as the signal production rate in each mass point
+using profile likelihood method. 
+
+\section{Current Status and Future Plans}
+In this analysis, electrons, muons, and jets are used to describe the events.
+The object definition are finalized. For muons, measuring the ID efficiency in
+data and simulation has been done with corresponding trigger efficiency, and
+the correction factor has been applied to each MC samples to describe the data better.
+Also, the nonprompt probability has been measure to estimate the nonprompt background
+using tight-loose method. For electrons, even if the definition for tight and loose ID
+criteria has been finalized, its efficiency and nonprompt probability have not been measured yet.
+Jets and missing transverse momenta definitions are provided from the CMS central POG team.
+
+Since we have not measured the correction factors and nonprompt probability of electrons yet,
+training the GNN discriminator for $\mu\mu\mu$ channel has been done in first. We will use the
+discrimination score and the dimuon mass spectrum to check the preliminary sensitivity soon.
+
+After measuring the electron efficiency and nonprompt probability, the result from $e\mu\mu$
+channel will be supplemented. Also, systematic sources have not been considered properly,
+for example the b-tagging efficiency correction for jet energy resolution. It will also be
+accounted in the final interpretation.
+
+The result will be published in the name of CMS collaboration within an year.
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\refname}{\spacedlowsmallcaps{References}} % For modifying the bibliography heading
+
+\bibliographystyle{unsrt}
+
+\bibliography{sample.bib} % The file containing the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
