@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.29)  29 SEP 2022 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.28)  29 SEP 2022 23:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -868,38 +868,43 @@ Overfull \hbox (22.65196pt too wide) in paragraph at lines 71--82
  []
 
 [2]
-Overfull \hbox (8.40707pt too wide) in paragraph at lines 126--138
-[]\T1/pplj/m/n/12 The sig-nal events are gen-er-ated us-ing Mad-graph_aMC@NLO v5.2.6.5
+Overfull \hbox (28.39908pt too wide) in paragraph at lines 127--139
+[]\T1/pplj/m/n/12 The sig-nal events are gen-er-ated us-ing Mad-graph_aMC@NLO v5.2.6.5[[]]
  []
 
 
-Overfull \hbox (16.19324pt too wide) in paragraph at lines 143--164
+Overfull \hbox (16.19324pt too wide) in paragraph at lines 144--165
  [][] 
  []
 
+
+Overfull \hbox (9.64314pt too wide) in paragraph at lines 168--177
+\T1/pplj/m/n/12 Final ob-jects are re-con-structed by par-ti-cle flow(PF) algorithm[[]], which
+ []
+
 [3]
-<Figures//FeynmanDiagram.png, id=69, 522.95375pt x 419.5675pt>
+<Figures//FeynmanDiagram.png, id=88, 522.95375pt x 419.5675pt>
 File: Figures//FeynmanDiagram.png Graphic file (type png)
 <use Figures//FeynmanDiagram.png>
-Package pdftex.def Info: Figures//FeynmanDiagram.png  used on input line 198.
+Package pdftex.def Info: Figures//FeynmanDiagram.png  used on input line 199.
 (pdftex.def)             Requested size: 227.62204pt x 182.62563pt.
- [4] [5 <./Figures//FeynmanDiagram.png>] (./article.bbl [6]) [7] (./article.aux)
+ [4] [5 <./Figures//FeynmanDiagram.png>] (./article.bbl [6] [7]) [8] (./article.aux)
 Package rerunfilecheck Info: File `article.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21064 strings out of 478268
- 398776 string characters out of 5846347
- 944738 words of memory out of 5000000
- 38837 multiletter control sequences out of 15000+600000
+ 21093 strings out of 478268
+ 399084 string characters out of 5846347
+ 946738 words of memory out of 5000000
+ 38852 multiletter control sequences out of 15000+600000
  573552 words of font info for 177 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,22n,106p,10648b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,23n,106p,10648b,784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on article.pdf (7 pages, 227250 bytes).
+Output written on article.pdf (8 pages, 234735 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
  37422 words of extra memory for PDF output out of 42996 (max. 10000000)
 

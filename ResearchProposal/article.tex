@@ -121,20 +121,21 @@ but increased number of events and using novel MVA methods made the search possi
 LHC full Run2 proton-proton collision data, which is total integrated luminosity of 139$fb^-1$, 
 collected by the CMS experiments is used in this analysis.
 The data has been triggered by either doublemuon triggers or electron-muon triggers depending on
-the final state leptons as described in section 4.
+the final state leptons as described in section 4. More detail description of the CMS detector and
+the triggering system can be found in Ref. \cite{Detector} \cite{Trigger}.
 
-The signal events are generated using Madgraph\_aMC@NLO v5.2.6.5 in leading order. 
+The signal events are generated using Madgraph\_aMC@NLO v5.2.6.5\cite{Madgraph} in leading order. 
 General 2HDM model cards restricted by type 1 scenario has been used. 
 The mass of the heavy Higgs boson is set to be 5TeV to avoid its production or decay, 
 while the mass of the light Higgs boson is set to be $125$ GeV.
 The mass of charged Higgs boson is set to be between $70$ GeV and $160$ GeV, 
 and the mass of the pseudoscalr Higgs boson is set to be between $15$ GeV and $m_{H^+} - 5$ GeV. 
 Each sample is normalized to $15fb$.
-Background samples are generated using Powheg Box v2 or Madgraph\_aMC@NLO v5.2.6.5 
+Background samples are generated using Powheg Box v2\cite{Powheg} or Madgraph\_aMC@NLO v5.2.6.5\cite{Madgraph} 
 up to leading order(LO) or next-leading order(NLO) in matrix element calculation, 
 and some samples are normalized up to higher order precision.
 More information of the background sample generation can be found in Table 1.
-For all samples, the actual detection process was implemented through Geant4 detector simulation.
+For all samples, the actual detection process was implemented through Geant4 detector simulation\cite{Geant4}.
 
 
 \begin{table}[hbt]
@@ -164,14 +165,14 @@ For all samples, the actual detection process was implemented through Geant4 det
 \end{table}
 
 \section{Object Definition}
-Final objects are reconstructed by particle flow(PF) algorithm, which not only use the subdetector
+Final objects are reconstructed by particle flow(PF) algorithm\cite{ParticleFlow}, which not only use the subdetector
 information but use all the subdetector information for better identify the final objects.
 The major objects we use in this analysis is electrons, muons, and jets. Electrons use tracker to measure
-it's position and momentum combined with the ECAL information. Tracks that matched to the muon stations
-can be identified as muons. Other objects, such as charged hadrons, neutral hadrons or tau lepton can also be identified,
-while neutrinos escape from the detector but it's transverse momentum can be measured as negative sum of the $p_{T}$ of all the
-PF candidates. Jets use all the PF candidates using anti-kt algorithm with cone size of 0.4.
-To identify b-jets, all the constituents are used to train the tagger, which gives scores to be light, c or b.
+it's position and momentum combined with the ECAL information\cite{Electron}. Tracks that matched to the muon stations
+can be identified as muons\cite{Muon}. Other objects, such as charged hadrons, neutral hadrons or tau lepton can also be identified,
+while neutrinos escape from the detector but it's transverse momentum can be measured as negative vector sum of the $p_{T}$ of all the
+PF candidates. Jets use all the PF candidates using anti-kt algorithm\cite{AntiKT} with cone size of 0.4.
+To identify b-jets, all the constituents are used to train the tagger\cite{DeepJet}, which gives scores to be light, c or b.
 Here, b-tagged jets are called b-jets.
 
 \section{Search Strategy}
@@ -214,7 +215,7 @@ By using the opposite signed muon pair, it is easy to reconstruct the pseudoscal
 However, to reconstruct the charged Higgs candidate is not a simple job. Instead of reconstructing
 the charged Higgs, we decided to use the final objects' kinematics 
 to discriminated irreducible background further.
-Graph-neural-network(GNN) based discriminators are trained to separate the signal events 
+Graph-neural-network(GNN) based discriminators\cite{GNN}\cite{ParticleNet} are trained to separate the signal events 
 and the nonprompt or $TT + X$ backgrounds. 
 To make the network sensitive to the final states' kinematics, Graph based data structure
 is the most natural way to represent the data, since the graph is length-free and permutation invariant data structure.
@@ -243,7 +244,7 @@ TT+nonprompt and $VV$, $TT + X$,
 will be suppressed using the GNN response of each event.
 The final limit will be extracted using the dimuon mass spectrum, which is the candidate
 of the pseudoscalar Higgs boson.
-The result will be interpreted as the signal production rate in each mass point using profile likelihood method.
+The result will be interpreted as the signal production rate in each mass point using profile likelihood method\cite{limit}.
 
 \section{Current Status and Future Plans}
 In this analysis, electrons, muons, and jets are used to describe the events.

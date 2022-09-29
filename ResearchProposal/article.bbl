@@ -2,80 +2,149 @@
 
 \bibitem{ATLASHiggsDiscovery}
 ATLAS Collaboration.
-\newblock Observation of a new particle in the search for the standard model
-  higgs boson with the atlas detector at the lhc.
-\newblock {\em Phys. Lett. B 716}, 2012.
+\newblock "{Observation} of a new particle in the search for the {Standard
+  Model Higgs boson} with the {ATLAS} detector at the {LHC}".
+\newblock {\em Phys. Lett. B 716 (2012) 1}.
 
 \bibitem{CMSHiggsDiscovery}
 CMS Collaboration.
-\newblock Observation of a new boson at a mass of 125 gev with the cms
-  experiment at the lhc.
-\newblock {\em Phys. Lett. B 716}, 2012.
+\newblock "{Observation} of a new boson at a mass of 125 gev with the {CMS}
+  experiment at the {LHC}".
+\newblock {\em Phys. Lett. B 716 (2012) 30}.
 
 \bibitem{StandardModel}
 P.W Higgs.
-\newblock Broken symmetries and the masses of gauge bosons.
+\newblock "{Broken Symmetries} and the {Masses} of {Gauge Bosons}".
 \newblock {\em Phys. Rev. Lett. 13}, pages 508--509, 1964.
 
 \bibitem{2HDM}
 G.C.~Branco et~al.
-\newblock Theory and phenomenology of two-higgs-doublet models.
+\newblock "{Theory} and phenomenology of {two-Higgs-doublet} models".
 \newblock {\em Phys. Rep. 516}, 2012.
 
 \bibitem{HcTotb}
 The~CMS Collaboration.
-\newblock Search for a charged higgs boson decaying into top and bottom quarks
-  in proton-proton collisions at $\sqrt{s}$ = 13 tev in events with electrons
-  and muons.
+\newblock "{Search} for a charged {Higgs} boson decaying into top and bottom
+  quarks in proton-proton collisions at $\sqrt{s}$ = 13 {TeV} in events with
+  electrons and muons".
 \newblock {\em JHEP 01}, 2020.
 
 \bibitem{HcTocs}
 The~CMS Collaboration.
-\newblock Search for a light charged higgs boson in the $h^\pm \rightarrow cs$
-  channel in proton-proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock "{Search} for a light charged {Higgs} boson in the {$H^\pm
+  \rightarrow cs$} channel in proton-proton collisions at $\sqrt{s}$ = 13
+  {TeV}".
 \newblock {\em Phys. Rev. D 102, 072001}, 2020.
 
 \bibitem{HcTotaunu}
 The~ATLAS Collaboration.
-\newblock Search for charged higgs bosons decaying via $h^\pm \rightarrow
-  \tau^\pm \nu_\tau$ in the $\tau$+lepton final states with 36 $fb^-1$ of $pp$
-  collision data recorded at $\sqrt{s}$ = 13 tev with atlas experiment.
+\newblock "{Search} for charged {Higgs} bosons decaying via {$H^\pm \rightarrow
+  \tau^\pm \nu_\tau$} in the $\tau$+lepton final states with 36 $fb^-1$ of $pp$
+  collision data recorded at $\sqrt{s}$ = 13 {TeV} with {ATLAS} experiment".
 \newblock {\em JHEP 09}, 2018.
 
 \bibitem{BosonicDecay}
 S.~Moretti A.~Arhrib, R.~Benbrik.
-\newblock Bosonic decays of charged higgs bosons in a 2hdm type-1.
+\newblock "{Bosonic} decays of charged {Higgs} bosons in a {2HDM} type-1".
 \newblock {\em Eur. Phys. J. C. 77}, 2017.
 
 \bibitem{HcToWASearch}
 Prasenjit Sanyal.
-\newblock Limits on the charged higgs parameters in the two higgs doublet model
-  using cms $\sqrt{s}$ = 13 tev results.
+\newblock "{Limits} on the {Charged Higgs Parameters} in the {Two Higgs Doublet
+  Model} using {CMS} $\sqrt{s}$ = 13 {TeV} {Results}".
 \newblock {\em Eur. Phys. J. C79}, 2019.
 
 \bibitem{DELPHISearch}
 DELPHI Collaboration.
-\newblock Search for charged higgs bosons at lep in general two higgs doublet
-  models.
+\newblock "{Search} for charged {Higgs} bosons at {LEP} in general two {Higgs}
+  doublet models".
 \newblock {\em Eur. Phys. J. C. 34}, 2004.
 
 \bibitem{OPALSearch}
 OPAL Collaboration.
-\newblock Search for charged higgs bosons in $e^+e^-$ collisions at $\sqrt{s}$
-  = 189-209 gev.
+\newblock "{Search} for charged {Higgs} bosons in $e^+e^-$ collisions at
+  $\sqrt{s}$ = 189-209 {GeV}".
 \newblock {\em Eur. Phys. J. C 72}, 2012.
 
 \bibitem{CDFSearch}
 CDF Collaboration.
-\newblock Search for a very light cp-odd higgs boson in top quark decays from
-  $p\bar{p}$ collisions at $\sqrt{s}$ = 1.96 tev.
+\newblock "{Search} for a very light {CP}-odd {Higgs} boson in top quark decays
+  from $p\bar{p}$ collisions at $\sqrt{s}$ = 1.96 {TeV}".
 \newblock {\em Phys. Rev. Lett. 107}, 2011.
 
 \bibitem{PreviousSearch}
 CMS Collaboration.
-\newblock Search for a light charged higgs boson decaying to a w boson and a
-  cp-odd higgs boson in final states with $e\mu\mu$ or $\mu\mu\mu$ in
-  proton-proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock "{Search} for a light charged {Higgs} boson decaying to a {W} boson
+  and a {CP-odd} {Higgs} boson in final states with $e\mu\mu$ or $\mu\mu\mu$ in
+  proton-proton collisions at $\sqrt{s}$ = 13 {TeV}".
 \newblock {\em Phys. Rev. Lett. 123, 131802}, 2019.
+
+\bibitem{Detector}
+CMS Collaboration.
+\newblock "{The} {CMS} experiment at the {CERN LHC}".
+\newblock {\em JINST 3 (2008) S08004}.
+
+\bibitem{Trigger}
+CMS Collaboration.
+\newblock "{The CMS} trigger system".
+\newblock {\em JINST 12 (2017) P01020}.
+
+\bibitem{Madgraph}
+Olivier~Mattelaer et~al.
+\newblock "{Madgraph} 5: {Going Beyond}".
+\newblock {\em Journal of High Energy Physics 128 (2011)}.
+
+\bibitem{Powheg}
+Carlo Oleari.
+\newblock "{The POWHEG-BOX}".
+\newblock {\em Nucl. Phys. Proc. Suppl. 205-206:46-41 (2010)}.
+
+\bibitem{Geant4}
+GEANT4 Collaboration.
+\newblock "{GEANT4-a simulation toolkit}".
+\newblock {\em Nucl. Instrum. Methods Phys. Res. Sect. A 506 (2003) 250}.
+
+\bibitem{ParticleFlow}
+CMS Collaboration.
+\newblock "{Particle-flow reconstruction and global event description with the
+  CMS detector}".
+\newblock {\em JINST 12 (2017) P10003}.
+
+\bibitem{Electron}
+CMS Collaboration.
+\newblock "{Performance of electron reconstruction and selection with the CMS
+  detector in proton-proton collisions at $\sqrt{s}$ = 8TeV}".
+
+\bibitem{Muon}
+CMS Collaboration.
+\newblock "{Performance of the CMS muon detector and muon reconstruction with
+  proton-proton collisions at $\sqrt{s}$ = 13 TeV}".
+\newblock {\em JINST 13 (2018) P06015}.
+
+\bibitem{AntiKT}
+M.~Cacciari et~al.
+\newblock "{The anti-$k_T$ jet clustering algorithm}".
+\newblock {\em JHEP 04 (2008) 063}.
+
+\bibitem{DeepJet}
+Emil~Bols et~al.
+\newblock "{Jet Flavour Classification Using DeepJet}".
+\newblock {\em JINST 15 (2020) P12012}.
+
+\bibitem{GNN}
+Zonghan~Wu et~al.
+\newblock "{A Comprehensive Survey on Graph Neural Networks}".
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems, vol.
+  32, no. 1, pp. 4-24 (2021)}.
+
+\bibitem{ParticleNet}
+Loukas~Gouskos Huilin~Qu.
+\newblock "{ParticleNet: Jet Tagging via Particle Clouds}".
+\newblock {\em Phys. Rev. D 101, 056019 (2020)}.
+
+\bibitem{limit}
+A.~L. Read.
+\newblock "{Presentation of search results: $CL_s$ technique}".
+\newblock {\em J. Phys. G 28 (2002) 2693}.
 
 \end{thebibliography}
