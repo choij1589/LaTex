@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{ATLASHiggsDiscovery}
+ATLAS Collaboration.
+\newblock Observation of a new particle in the search for the standard model
+  higgs boson with the atlas detector at the lhc.
+\newblock {\em Phys. Lett. B 716}, 2012.
+
+\bibitem{CMSHiggsDiscovery}
+CMS Collaboration.
+\newblock Observation of a new boson at a mass of 125 gev with the cms
+  experiment at the lhc.
+\newblock {\em Phys. Lett. B 716}, 2012.
+
+\bibitem{StandardModel}
+P.W Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock {\em Phys. Rev. Lett. 13}, pages 508--509, 1964.
+
+\bibitem{2HDM}
+G.C.~Branco et~al.
+\newblock Theory and phenomenology of two-higgs-doublet models.
+\newblock {\em Phys. Rep. 516}, 2012.
+
+\bibitem{HcTotb}
+The~CMS Collaboration.
+\newblock Search for a charged higgs boson decaying into top and bottom quarks
+  in proton-proton collisions at $\sqrt{s}$ = 13 tev in events with electrons
+  and muons.
+\newblock {\em JHEP 01}, 2020.
+
+\bibitem{HcTocs}
+The~CMS Collaboration.
+\newblock Search for a light charged higgs boson in the $h^\pm \rightarrow cs$
+  channel in proton-proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock {\em Phys. Rev. D 102, 072001}, 2020.
+
+\bibitem{HcTotaunu}
+The~ATLAS Collaboration.
+\newblock Search for charged higgs bosons decaying via $h^\pm \rightarrow
+  \tau^\pm \nu_\tau$ in the $\tau$+lepton final states with 36 $fb^-1$ of $pp$
+  collision data recorded at $\sqrt{s}$ = 13 tev with atlas experiment.
+\newblock {\em JHEP 09}, 2018.
+
+\bibitem{BosonicDecay}
+S.~Moretti A.~Arhrib, R.~Benbrik.
+\newblock Bosonic decays of charged higgs bosons in a 2hdm type-1.
+\newblock {\em Eur. Phys. J. C. 77}, 2017.
+
+\bibitem{HcToWASearch}
+Prasenjit Sanyal.
+\newblock Limits on the charged higgs parameters in the two higgs doublet model
+  using cms $\sqrt{s}$ = 13 tev results.
+\newblock {\em Eur. Phys. J. C79}, 2019.
+
+\bibitem{DELPHISearch}
+DELPHI Collaboration.
+\newblock Search for charged higgs bosons at lep in general two higgs doublet
+  models.
+\newblock {\em Eur. Phys. J. C. 34}, 2004.
+
+\bibitem{OPALSearch}
+OPAL Collaboration.
+\newblock Search for charged higgs bosons in $e^+e^-$ collisions at $\sqrt{s}$
+  = 189-209 gev.
+\newblock {\em Eur. Phys. J. C 72}, 2012.
+
+\bibitem{CDFSearch}
+CDF Collaboration.
+\newblock Search for a very light cp-odd higgs boson in top quark decays from
+  $p\bar{p}$ collisions at $\sqrt{s}$ = 1.96 tev.
+\newblock {\em Phys. Rev. Lett. 107}, 2011.
+
+\bibitem{PreviousSearch}
+CMS Collaboration.
+\newblock Search for a light charged higgs boson decaying to a w boson and a
+  cp-odd higgs boson in final states with $e\mu\mu$ or $\mu\mu\mu$ in
+  proton-proton collisions at $\sqrt{s}$ = 13 tev.
+\newblock {\em Phys. Rev. Lett. 123, 131802}, 2019.
+
+\end{thebibliography}
