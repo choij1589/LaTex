@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex article"] 1664461575 "article.aux" "article.bbl" "article" 1664461576
+["bibtex article"] 1664461575 "article.aux" "article.bbl" "article" 1667380026
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "article.aux" 1664461576 5301 a1ff0ddae2ae9ed6a5537b8edba6ba20 "pdflatex"
-  "sample.bib" 1664461575 5711 b0eced94c31cea06d5af5d4e3beeea78 ""
+  "article.aux" 1667380026 5301 a1ff0ddae2ae9ed6a5537b8edba6ba20 "pdflatex"
+  "sample.bib" 1666596718 5711 b0eced94c31cea06d5af5d4e3beeea78 ""
   (generated)
   "article.bbl"
   "article.blg"
-["pdflatex"] 1664461575 "/Users/choij/workspace/LaTex/ResearchProposal/article.tex" "article.pdf" "article" 1664461576
-  "/Users/choij/workspace/LaTex/ResearchProposal/article.tex" 1664459702 17395 855a0991d8bdbfdbe805dbac66485574 ""
+["pdflatex"] 1667380025 "/Users/choij/workspace/LaTex/ResearchProposal/article.tex" "article.pdf" "article" 1667380026
+  "/Users/choij/workspace/LaTex/ResearchProposal/article.tex" 1666596718 17395 855a0991d8bdbfdbe805dbac66485574 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc" 1276043435 2452 388b1f44dfda03ab19527677af70e7fb ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc" 1276043435 2027 f8708480c25b8150843bb94b8b39c93f ""
@@ -178,17 +178,17 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/xpatch/xpatch.sty" 1585258158 8314 7803f78066c4f9d008405191a4b43073 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
-  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1664355238 2826440 2a57d64645a8fa4ef47dadc29f18d782 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1667379968 2826438 b51e0807b7fd31b14d1bd33553c77cc8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Figures//FeynmanDiagram.png" 1664456930 89877 8374aadb34dc3bde51c098ad4ed712a3 ""
-  "article.aux" 1664461576 5301 a1ff0ddae2ae9ed6a5537b8edba6ba20 "pdflatex"
-  "article.bbl" 1664461575 4895 120dfa596dc86e43d198c72d1b40ce88 "bibtex article"
-  "article.lof" 1664461576 210 7c65a5e24ace95d497405ee427356383 "pdflatex"
-  "article.lot" 1664461576 188 dbabdd07ffb2cfa8204508a546dfc7ac "pdflatex"
+  "Figures//FeynmanDiagram.png" 1666596718 89877 8374aadb34dc3bde51c098ad4ed712a3 ""
+  "article.aux" 1667380026 5301 a1ff0ddae2ae9ed6a5537b8edba6ba20 "pdflatex"
+  "article.bbl" 1666596718 4895 120dfa596dc86e43d198c72d1b40ce88 "bibtex article"
+  "article.lof" 1667380026 210 7c65a5e24ace95d497405ee427356383 "pdflatex"
+  "article.lot" 1667380026 188 dbabdd07ffb2cfa8204508a546dfc7ac "pdflatex"
   "article.out" 0 -1 0 "pdflatex"
-  "article.tex" 1664459702 17395 855a0991d8bdbfdbe805dbac66485574 ""
-  "article.toc" 1664461576 456 8b2a54a31be408f10f96bca7e6283df9 "pdflatex"
-  "structure.tex" 1664456930 3061 95a594650420119c9f58fd1c52a8f116 ""
+  "article.tex" 1666596718 17395 855a0991d8bdbfdbe805dbac66485574 ""
+  "article.toc" 1667380026 456 8b2a54a31be408f10f96bca7e6283df9 "pdflatex"
+  "structure.tex" 1666596718 3061 95a594650420119c9f58fd1c52a8f116 ""
   (generated)
   "article.aux"
   "article.lof"
